@@ -14,7 +14,7 @@ What will be used on this project
 | Editor         | VS Code (https://code.visualstudio.com/download) |
 | Package Manager| PIP (https://pip.pypa.io/en/stable/getting-started/) |
 | UI Test Tools  | Robot Framework with Python (https://robotframework.org/#getting-started) |
-|                | Appium Library ([https://www.npmjs.com/package/appium]) | 
+|                | Appium Library (https://docs.robotframework.org/docs/different_libraries/appium) | 
 |                | PyYaml (https://pypi.org/project/PyYAML/) |
 | Design Pattern | POM or Page Object Model |
 | Test Reporter  | Robot Framework with Python (https://robotframework.org/#getting-started)|
