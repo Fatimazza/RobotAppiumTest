@@ -11,3 +11,9 @@ Suite Teardown      Close Apps
 As I user I want to open My Cafe App
     Page Should Contain Text    Home
     Page Should Contain Text    Search menu
+
+As I user I want to search some menu
+    Tap Home Search Bar
+    Input Text    ${homeSearchBar}    su
+    Page Should Contain Text    Japanese Sushi
+    Page Should Contain Text    Tiramisu Coffee
