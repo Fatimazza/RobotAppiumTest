@@ -15,3 +15,11 @@ Start Session Apps
     ...    autoGrantPermissions=true
     ...    noReset=true
     Sleep    1
+
+#    Close Session App
+#    Capture Page Screenshot
+#    Close Application    noReset=true
+
+Close Apps
+    Capture Page Screenshot
+    Close Application
