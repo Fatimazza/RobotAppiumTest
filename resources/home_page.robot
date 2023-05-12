@@ -16,6 +16,9 @@ Start Session Apps
     ...    noReset=true
     Sleep    1
 
+Tap Home Search Bar
+    Tap With Positions    ${homeSearchBar}
+
 #    Close Session App
 #    Capture Page Screenshot
 #    Close Application    noReset=true
