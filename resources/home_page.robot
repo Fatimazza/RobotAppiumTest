@@ -1,5 +1,6 @@
 *** Settings ***
-Library     AppiumLibrary
+Library         AppiumLibrary
+Variables       ../resources/home_locators.yaml
 
 
 *** Keywords ***
