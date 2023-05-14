@@ -68,7 +68,15 @@ python -m pip install pyyaml
 
 ### Open the Project on Editor
 
-Open this Automation Project using VS Code Editor.
+Open this Automation Project using VS Code Editor
+
+### Run Application 
+
+Run the "My Cafe App" APK on Android Emulator or Real device connected with Debugging mode
+
+The APK file available on `RobotAppiumTest/apk/MyCafeApp.apk`
+
+<img src="https://github.com/fatimazza/RobotAppiumTest/blob/main/apk/ScreenShoot_MyCafeApp.jpg" alt= “MyCafeApp” width="400" height="756">
 
 ### Run the Automation Project 
 
