@@ -13,7 +13,8 @@ What will be used on this project
 | -------------- | ------------------------------------------------------------ |
 | Editor         | VS Code (https://code.visualstudio.com/download) |
 | Package Manager| PIP (https://pip.pypa.io/en/stable/getting-started/) |
-| UI Test Tools  | Robot Framework with Python (https://robotframework.org/#getting-started) |
+| UI Test Tools  | Appium (http://appium.io/docs/en/2.0/quickstart/install) | 
+|                | Robot Framework with Python (https://robotframework.org/#getting-started) |
 |                | Appium Library (https://github.com/serhatbolsu/robotframework-appiumlibrary) | 
 |                | PyYaml (https://pypi.org/project/PyYAML/) |
 | Design Pattern | POM or Page Object Model |
@@ -34,6 +35,12 @@ python -m pip --version
 ```
 
 ## Testing Tools Installation
+
+Install Appium v 2.0
+
+```Bash
+npm i -g appium@next
+```
 
 Install Robot Framework
 
@@ -65,11 +72,20 @@ Open this Automation Project using VS Code Editor.
 
 ### Run the Automation Project 
 
-Change to Project directory on Terminal or Command Prompt
+Run Appium on Terminal or Command Prompt
+
+```Bash
+appium --base-path /wd/hub
+```
+
+On **Another** Terminal or Command Prompt
+
+Change to Project directory 
 
 ```Bash
 cd RobotAppiumTest
 ```
+
 Run Specific Test Execution on Terminal
 
 ```Bash
