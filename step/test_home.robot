@@ -17,3 +17,9 @@ As I user I want to search some menu
     Input Text    ${homeSearchBar}    su
     Page Should Contain Text    Japanese Sushi
     Page Should Contain Text    Tiramisu Coffee
+
+As I user I want to be informed when searched menu not found
+    Tap Home Search Bar
+    Input Text    ${homeSearchBar}    abc
+    Wait Until Element Is Visible    ${homeNoResultText}
+    Page Should Contain Text    No search result found
