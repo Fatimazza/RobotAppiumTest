@@ -11,8 +11,8 @@ Suite Teardown      Close Apps
 As I user I want to open My Cafe App
     Page Should Contain Text    Home
     Page Should Contain Text    Search menu
-    Wait Until Element Is Visible    ${homeFoodText}
-    Element Should Contain Text    ${homeFoodText}    Japanese Sushi
+    Wait Until Element Is Visible    ${homeFoodTitle}
+    Element Should Contain Text    ${homeFoodTitle}    Japanese Sushi
 
 As I user I want to search some menu
     Tap Home Search Bar
@@ -25,3 +25,4 @@ As I user I want to be informed when searched menu not found
     Input Text    ${homeSearchBar}    abc
     Wait Until Element Is Visible    ${homeNoResultText}
     Page Should Contain Text    No search result found
+    Clear Text    ${homeSearchBar}
