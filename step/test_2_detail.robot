@@ -9,7 +9,7 @@ Suite Teardown      Close Apps
 
 
 *** Test Cases ***
-As I user I want to open Food Detail home_page
+As I user I want to open Food Detail
     Tap Food Salad
     Sleep    3
     Wait Until Element Is Visible    ${detailFoodTitle}
