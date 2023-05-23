@@ -1,0 +1,4 @@
+detailFoodTitle: //android.widget.TextView[@resource-id="text:foodDetailName"]
+detailFoodPrice: //android.widget.TextView[@resource-id="text:foodDetailPrice"]
+detailFoodDesc: //android.widget.TextView[@resource-id="text:foodDetailDesc"]
+detailBackButton: //android.widget.ImageView[@content-desc="Back"]
