@@ -19,6 +19,9 @@ Start Session Apps
 Tap Home Search Bar
     Tap With Positions    ${homeSearchBar}
 
+Tap Food Salad
+    Tap    ${homeFoodSalad}
+
 #    Close Session App
 #    Capture Page Screenshot
 #    Close Application    noReset=true

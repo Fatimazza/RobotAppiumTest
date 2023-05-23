@@ -1,3 +1,4 @@
 homeSearchBar: //android.widget.EditText[@resource-id="searchBar:foodHome"]
 homeNoResultText: //android.widget.TextView[@resource-id="text:noResultFoodHome"]
 homeFoodTitle: //android.widget.TextView[@resource-id="text:foodTitle"]
+homeFoodSalad: //android.widget.TextView[@resource-id="text:foodTitle" and @text="Vegetables Salad"]
