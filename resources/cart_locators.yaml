@@ -1,0 +1,6 @@
+cartEmptyText: //android.widget.TextView[@resource-id="text:noItemFoodCart"]
+cartOrderButton: //android.view.View[@resource-id="button:OrderButton"]
+cartOrderButtonTitle: //android.widget.TextView[@resource-id="text:OrderButtonTitle"]
+cartFoodTitle: //android.widget.TextView[@resource-id="text:cartFoodTitle"]
+cartFoodPrice: //android.widget.TextView[@resource-id="text:cartFoodPrice"]
+cartOrderCount: //android.widget.TextView[@resource-id="text:orderCount"]
