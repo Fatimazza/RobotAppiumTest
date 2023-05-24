@@ -16,4 +16,5 @@ As I user I want to open Food Detail
     Element Text Should Be    ${detailFoodTitle}    Vegetables Salad
     Element Text Should Be    ${detailFoodPrice}    Rp 42500
     Element Should Contain Text    ${detailFoodDesc}    Lorem ipsum
+    Element Should Be Disabled    ${detailOrderButton}
     Tap    ${detailBackButton}
