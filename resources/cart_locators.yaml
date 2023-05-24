@@ -4,3 +4,4 @@ cartOrderButtonTitle: //android.widget.TextView[@resource-id="text:OrderButtonTi
 cartFoodTitle: //android.widget.TextView[@resource-id="text:cartFoodTitle"]
 cartFoodPrice: //android.widget.TextView[@resource-id="text:cartFoodPrice"]
 cartOrderCount: //android.widget.TextView[@resource-id="text:orderCount"]
+cartDecreasedButton: //android.widget.TextView[@resource-id="text:countDecreased"]

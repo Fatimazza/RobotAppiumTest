@@ -18,3 +18,22 @@ As I user I want to open empty Cart Page
     Element Text Should Be    ${cartOrderButtonTitle}    Total Order: 0 Rupiah
     Element Text Should Be    ${cartEmptyText}    No item on the Cart
     Tap Home Menu
+
+As I user I can add Food to the Cart with correct Quantity and Price
+    Sleep    3
+    Tap Food Salad
+    Wait Until Element Is Visible    ${detailFoodTitle}
+    Tap    ${detailIncreaseButton}
+    Tap    ${detailIncreaseButton}
+    Sleep    3
+    Tap    ${detailOrderButton}
+    Sleep    3
+    Wait Until Element Is Visible    ${cartOrderButton}
+    Element Should Be Enabled    ${cartOrderButton}
+    Element Text Should Be    ${cartOrderButtonTitle}    Total Order: 85000 Rupiah
+    Element Text Should Be    ${cartFoodTitle}    Vegetables Salad
+    Element Text Should Be    ${cartFoodPrice}    Rp 85000
+    Element Text Should Be    ${cartOrderCount}    2
+    Tap    ${cartDecreasedButton}
+    Tap    ${cartDecreasedButton}
+    Go Back
