@@ -22,6 +22,12 @@ Tap Home Search Bar
 Tap Food Salad
     Tap    ${homeFoodSalad}
 
+Tap Home Menu
+    Tap    ${homeHomeMenu}
+
+Tap Cart Menu
+    Tap    ${homeCartMenu}
+
 #    Close Session App
 #    Capture Page Screenshot
 #    Close Application    noReset=true
